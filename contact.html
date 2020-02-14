@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>u
+    </head>
+    <body>
+        <div class="title">
+            <h1>Contact Me</h1><br>
+            <h2>Contact Me To Lead You Into The Future</h2>
+        </div>
+
+        <div class="contact-form">
+            <form id="contactForm" method="post" action="">
+            <input name="name" id="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" id="email" type="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" id="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+
+            <div class="g-recaptcha" data-sitekey="6LeCIdgUAAAAAELrMLVZOD71fTlwlL5CQYa3wVX7"></div>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+    </div>
+    <footer>
+        <a class="facebook" href="https://www.facebook.com/keenan.philander.7"><img src="icon1.png" alt="facebook" width="70px" height="70px"></a>
+        <a class="twitter" href="https://twitter.com/login?lang=en"><img src="icon2.png" alt="twitter" width="70pc" height="70px"></a>
+        <a class="instagram" href="https://www.instagram.com/?hl=en"><img src="icon3.png" alt="instagram" width="70px" height="70px"></a>
+    </footer> 
+ </body>
+ <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+ <script src="main.js"></script>
+
+</html>
